@@ -13,17 +13,8 @@ const About = () => {
           </div>
        </div>
        </div>
-       <div className='core-value'>
-          <div className='core-value-content'>
-             <p className='text-6xl '>Our Key Values</p>
-             <div className='core-value-card-content'>
-                <div className='value-card'></div>
-                <div className='value-card'></div>
-                <div className='value-card'></div>
-                <div className='value-card'></div>
-             </div>
-          </div>
-       </div>
+      
+       
     </div>
   )
 }

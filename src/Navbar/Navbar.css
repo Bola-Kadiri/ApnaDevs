@@ -1,0 +1,136 @@
+.nav-link{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 900;
+    background-color: #fff;
+    height: 80px;
+    box-shadow: 1px 1px 1px #fff;
+    /* flex items-center justify-between p-2 */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+   
+}
+.links, .links-show{
+    /* hidden md:flex space-x-12 mr-2 px-4 items-center */
+    display: flex;
+    width: 45%;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 10px;
+    padding: 32px 0px;
+}
+.test{
+    z-index: 800;
+}
+.list-one{
+    z-index: 800;
+}
+.logo{
+    width: 150px;
+}
+
+
+li{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18.33333px;
+    font-weight: 700;
+    color: hsl(216, 100%, 37%); 
+    padding: 10px; 
+}
+.special{
+    height: 700px;
+    width: 700px;
+}
+
+
+.header-parent {
+    border-bottom: solid 1px #0d1b2a;
+    background-color: #778da9;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 2rem;
+  }
+  
+  
+  .logo {
+    height: 45px;
+  }
+  
+  
+.inner-service{
+    background-color: #fff;
+    position: absolute;
+    top: 85px;
+    width: 180px;
+    height: 180px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   
+    transition: .3 ease-in-out; 
+} 
+
+.inner-link{
+  
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.inner-link a{
+    margin-bottom: 10px;
+    color: black;
+}
+.list-one{
+    padding: 50px 10px;
+}
+.test-show{
+    display: none;
+}
+@media screen and (max-width: 780px){
+    .links{
+     
+        display: none;
+    }
+    .links-show{
+      position: absolute;
+      width: 100%;
+      min-height: 80vh;
+      display: flex;
+      flex-direction: column;
+      left: 0;
+      right: 0;
+     background-color: black;
+      top: 80px;
+      z-index: 1;
+      color: #fff;
+    }
+    li a{
+        color: #fff;
+    }
+    .list-one .serv{
+       color: #fff;
+    }
+    .inner-link a{
+        margin-bottom: 0px;
+      
+    }
+    .list-one{
+        padding: 0px 0px;
+    }
+   .test-show{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+   }
+}
+

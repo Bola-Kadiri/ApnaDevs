@@ -1,6 +1,7 @@
 import React from 'react'
 
 import '../App.css'
+import '../styles/Home.css'
 import {Im500Px} from 'react-icons/im'
 import {FaBattleNet} from 'react-icons/fa'
 import {FaFreeCodeCamp} from 'react-icons/fa'
@@ -17,9 +18,9 @@ function Home() {
            <div id="element-with-background-image">
                <div id="color-overlay">
                    <div className='radio flex justify-center items-center flex-col'>
-                      <h1 className='radio-header md:text-7xl  items-center flex justify-centter mb-8'>Discover Our Proven Formula To Get Success</h1>
-                      <p className=' text-xl mb-8 items-center flex justify-centter'>We Are Here To Achieve Your Goal || Your Trusted Technology Partner</p>
-                     <button className='hover:bg-pink text-gray-light rounded-full bg-bola px-6 py-2 text-xl border-none outline-none'>Get Started</button>
+                      <h1 className='sm:text-2xs md:mb-2 radio-header text-3xl  items-center flex justify-centter mb-0 xl:text-7xl'>Discover Our Proven Formula To Get Success</h1>
+                      <p className='md:text-xl mb-8 items-center flex justify-centter'>We Are Here To Achieve Your Goal || Your Trusted Technology Partner</p>
+                     <button className='hover:bg-pink text-gray-light rounded-full bg-bola px-6 py-2 text-xl border-none outline-none md: px-2 '>Get Started</button>
                    </div>
                </div>
            </div>
@@ -31,15 +32,15 @@ function Home() {
               </div>
               <div className=' h-48 card flex flex-col justify-around items-center py-4'>
                  <FaBattleNet className='text-6xl text-bola'/>
-                 <p className='text-2xl card-one'>High Quality</p>
+                 <p className='text-2xl card-one'>Collaborate</p>
               </div>
               <div className=' h-48 card flex flex-col justify-around items-center py-4'>
                  <FaFreeCodeCamp className='text-6xl text-bola'/>
-                 <p className='text-2xl card-one'>Fast Delivery</p>
+                 <p className='text-2xl card-one'>Explore</p>
               </div>
               <div className=' h-48 card flex flex-col justify-around items-center py-4'>
                  <SiAngellist className='text-6xl text-bola'/>
-                 <p className='text-2xl card-one'>24/7 support</p>
+                 <p className='text-2xl card-one'>Readiness</p>
               </div>
            </div>
        </div>
@@ -68,26 +69,19 @@ function Home() {
                  <p className='text-bola mt-2'>Discover More!</p>
               </div>
              </span>
+            
              <span className='service-section-cards'>
-              <img src={image3} className='image-2' alt='img3'/>
+              <img src={image5} className='image-2' alt='img3'/>
               <div className='items'>
-                 <h2 className='text-bola text-2xl stack mb-2'>SEO & Company</h2>
+                 <h2 className='text-bola text-2xl stack mb-2'>Backend Development</h2>
                  <p className='description'>We will make design that will be exclusive to your project requirements and needs so your project will be unique and it will look unlike any other project before.</p>
-                 <p className='text-bola mt-2'>Discover More!</p>
-              </div>
-             </span>
-             <span className='service-section-cards'>
-              <img src={image3} className='image-2' alt='img3'/>
-              <div className='items'>
-                 <h2 className='text-bola text-2xl stack mb-2'>Project Plan</h2>
-                 <p className='description'>We will make design that will be exclusive to your project requirements and needs so your project will be unique and it will look unlike any other project before.</p>
-                 <p className='text-bola mt-2'>Discover More!</p>
+                 <p className='text-bola mt-2'>Discover More</p>
               </div>
              </span>
              <span className='service-section-cards'>
               <img src={image5} className='image-2' alt='img3'/>
               <div className='items'>
-                 <h2 className='text-bola text-2xl stack mb-2'>Web Development</h2>
+                 <h2 className='text-bola text-2xl stack mb-2'>Frontend Development</h2>
                  <p className='description'>We will make design that will be exclusive to your project requirements and needs so your project will be unique and it will look unlike any other project before.</p>
                  <p className='text-bola mt-2'>Discover More</p>
               </div>
@@ -103,19 +97,12 @@ function Home() {
              <span className='service-section-cards'>
               <img src={image3} className='image-2' alt='img3'/>
               <div className='items'>
-                 <h2 className='text-bola text-2xl stack mb-2'>Hosting Services</h2>
+                 <h2 className='text-bola text-2xl stack mb-2'>Mentorship</h2>
                  <p className='description'>We will make design that will be exclusive to your project requirements and needs so your project will be unique and it will look unlike any other project before.</p>
                  <p className='text-bola mt-2'>Discover More!</p>
               </div>
              </span>
-             <span className='service-section-cards'>
-              <img src={image3} className='image-2' alt='img3'/>
-              <div className='items'>
-                 <h2 className='text-bola text-2xl stack mb-2'>Mobile App</h2>
-                 <p className='description'>We will make design that will be exclusive to your project requirements and needs so your project will be unique and it will look unlike any other project before.</p>
-                 <p className='text-bola mt-2'>Discover More!</p>
-              </div>
-             </span>
+             
              <span className='service-section-cards'>
               <img src={image3} className='image-2' alt='img3'/>
               <div className='items'>
@@ -124,129 +111,46 @@ function Home() {
                  <p className='text-bola mt-2'>Discover More!</p>
               </div>
              </span>
-             <span className='service-section-cards'>
-              <img src={image3} className='image-2' alt='img3'/>
-              <div className='items'>
-                 <h2 className='text-bola text-2xl stack mb-2'>All In One Services</h2>
-                 <p className='description'>We will make design that will be exclusive to your project requirements and needs so your project will be unique and it will look unlike any other project before.</p>
-                 <p className='text-bola mt-2'>Discover More!</p>
-              </div>
-             </span>
+             
              
              </div>
           </div>
        </div>
        <div className='portfolio'>
-          <div className='inner-portfolio'>
-            <
-            div className='center'>
-            <p className='text-xl text-white mt-8 port'>Our Portfolios</p>
-            <p className='text-white recent-work mb-4'>Some Of Our Recent Works</p>
-               <div className='inner-portfolio-content px-8'>
-                 <p className='bg-blue px-4'>All</p>
-                 <p>WEB DESIGN</p>
-                 <p> SEO</p>
-                 <p>UI/UX DESIGN</p>
-                 <p>MOBILE APP</p>
-                 <p>GRAPHIC</p>
-                 <p>WEB DEVELOPMENT</p>
-          </div>
-            </div>
+          
             <div className='card-portfolio'>
-              <div className='port-card'></div>
-              <div className='port-card'></div>
-              <div className='port-card'></div>
-              <div className='port-card'></div>
-              <div className='port-card'></div>
-              <div className='port-card'></div>
+              <div className="card-basket">
+                 <div className='card-front'>
+                     <h1>FRONTEND</h1>
+                 </div>
+                 <div className='card-back'>
+                    <h1>FRONTEND DESCRIPTION</h1>
+                 </div>
+              </div>
+              
+              <div className="card-basket">
+              <div className='card-front'>
+                  <h1>BACKEND</h1>
+              </div>
+              <div className='card-back'>
+                  <h1>BACKEND DESCRIPTION</h1>
+              </div>
            </div>
+           <div className="card-basket">
+                 <div className='card-front'>
+                     <h1>UI/UX</h1>
+                 </div>
+                 <div className='card-back'>
+                     <h1>UI/UX DESCRIPTION</h1>
+                 </div>
+              </div>
+              
+            
+         
           </div>
           
        </div>
-       <div className='service-section'>
-       <div className='inner-service-section my-10'>
-          <p className='text-center text-xl'>Testimonials</p>
-          <p className='section-header'>We Have Many Good Client's Reviews</p>
-       </div>
-       
-       <div className='service-section-body'>
-         <div className='card-content'>
-          <span className='service-section-cards'>
-           <img src={image4} className='image-2' alt='img3'/>
-           <div className='items'>
-              <h2 className='text-bola text-2xl stack mb-2'>UI/UX Design</h2>
-              <p className='description'>We will make design that will be exclusive to your project requirements and needs so your project will be unique and it will look unlike any other project before.</p>
-              <p className='text-bola mt-2'>Discover More!</p>
-           </div>
-          </span>
-          <span className='service-section-cards'>
-           <img src={image3} className='image-2' alt='img3'/>
-           <div className='items'>
-              <h2 className='text-bola text-2xl stack mb-2'>SEO & Company</h2>
-              <p className='description'>We will make design that will be exclusive to your project requirements and needs so your project will be unique and it will look unlike any other project before.</p>
-              <p className='text-bola mt-2'>Discover More!</p>
-           </div>
-          </span>
-          <span className='service-section-cards'>
-           <img src={image3} className='image-2' alt='img3'/>
-           <div className='items'>
-              <h2 className='text-bola text-2xl stack mb-2'>Project Plan</h2>
-              <p className='description'>We will make design that will be exclusive to your project requirements and needs so your project will be unique and it will look unlike any other project before.</p>
-              <p className='text-bola mt-2'>Discover More!</p>
-           </div>
-          </span>
-          <span className='service-section-cards'>
-           <img src={image5} className='image-2' alt='img3'/>
-           <div className='items'>
-              <h2 className='text-bola text-2xl stack mb-2'>Web Development</h2>
-              <p className='description'>We will make design that will be exclusive to your project requirements and needs so your project will be unique and it will look unlike any other project before.</p>
-              <p className='text-bola mt-2'>Discover More</p>
-           </div>
-          </span>
-          <span className='service-section-cards'>
-           <img src={image3} className='image-2' alt='img3'/>
-           <div className='items'>
-              <h2 className='text-bola text-2xl stack mb-2'>Cloud Services</h2>
-              <p className='description'>We will make design that will be exclusive to your project requirements and needs so your project will be unique and it will look unlike any other project before.</p>
-              <p className='text-bola mt-2'>Discover More!</p>
-           </div>
-          </span>
-          <span className='service-section-cards'>
-           <img src={image3} className='image-2' alt='img3'/>
-           <div className='items'>
-              <h2 className='text-bola text-2xl stack mb-2'>Hosting Services</h2>
-              <p className='description'>We will make design that will be exclusive to your project requirements and needs so your project will be unique and it will look unlike any other project before.</p>
-              <p className='text-bola mt-2'>Discover More!</p>
-           </div>
-          </span>
-          <span className='service-section-cards'>
-           <img src={image3} className='image-2' alt='img3'/>
-           <div className='items'>
-              <h2 className='text-bola text-2xl stack mb-2'>Mobile App</h2>
-              <p className='description'>We will make design that will be exclusive to your project requirements and needs so your project will be unique and it will look unlike any other project before.</p>
-              <p className='text-bola mt-2'>Discover More!</p>
-           </div>
-          </span>
-          <span className='service-section-cards'>
-           <img src={image3} className='image-2' alt='img3'/>
-           <div className='items'>
-              <h2 className='text-bola text-2xl stack mb-2'>Graphic Design</h2>
-              <p className='description'>We will make design that will be exclusive to your project requirements and needs so your project will be unique and it will look unlike any other project before.</p>
-              <p className='text-bola mt-2'>Discover More!</p>
-           </div>
-          </span>
-          <span className='service-section-cards'>
-           <img src={image3} className='image-2' alt='img3'/>
-           <div className='items'>
-              <h2 className='text-bola text-2xl stack mb-2'>All In One Services</h2>
-              <p className='description'>We will make design that will be exclusive to your project requirements and needs so your project will be unique and it will look unlike any other project before.</p>
-              <p className='text-bola mt-2'>Discover More!</p>
-           </div>
-          </span>
-          
-          </div>
-       </div>
-    </div>
+      
    </div>
   
   )

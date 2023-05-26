@@ -1,7 +1,7 @@
 import React from 'react'
 import Home from './component/Home.jsx'
 import {BrowserRouter, Routes, Route} from "react-router-dom"
-import { Navbar } from './Navbar/Navbar.jsx'
+
 import Footer from './Footer/Footer.jsx'
 import About from './component/About.jsx'
 import Services from './component/Services.jsx'
@@ -9,11 +9,13 @@ import Ui from './component/Ui.jsx'
 import Contact from './component/Contact.jsx'
 import Register from './component/Register.jsx'
 import Login from './component/Login.jsx'
+import Navbar from './Navbar/Navbar.jsx' 
 
 const App = () => {
   return (
-    <header className='relative'>
+    <header>
      <BrowserRouter>
+     
      <Navbar/>
        <div className="pages">
          <Routes>
@@ -26,7 +28,7 @@ const App = () => {
             <Route path="/login" element={<Login/>} />
          </Routes>
        </div>
-       <Footer/>
+      <Footer/>
      </BrowserRouter>
     </header>
   )
